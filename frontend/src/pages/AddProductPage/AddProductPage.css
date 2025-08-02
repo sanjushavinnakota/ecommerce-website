@@ -1,0 +1,18 @@
+.add-form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 37vw;
+    padding:15px
+  }
+.form{
+  background-color:#683737;
+  border-radius: 1rem;
+  color: white;
+  padding:3rem
+}
+
+input{
+  padding: 0.8rem;
+}
+

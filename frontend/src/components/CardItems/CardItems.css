@@ -1,0 +1,137 @@
+/* Container for both cart items and price summary */
+.cart-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 20px;
+    justify-content: space-around;
+  }
+  
+  /* Cart list section */
+  .cart-page {
+    flex: 3;
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 20px;
+    width: 100%;
+    max-width: 380px; /* Limit width for smaller cards */
+  }
+  
+  /* Individual cart item */
+  .cart-item {
+    border: 1px solid #ccc;
+    padding: 15px;
+    border-radius: 12px;
+    background-color: #ffffff;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  /* Image styling */
+  .image {
+    width: 100%;
+    max-width: 250px;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 10px;
+  }
+  
+  /* Product name */
+  .name {
+    color: #4b2e2e;
+    font-size: 18px;
+    margin-bottom: 8px;
+    text-align: center;
+  }
+  
+  /* Paragraph and details */
+  .para,
+  .cart-item p {
+    font-size: 14px;
+    margin: 4px 0;
+    text-align: center;
+    color: #444;
+  }
+  
+  /* Action buttons */
+  .cart-actions {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    margin-top: 10px;
+    flex-wrap: wrap;
+  }
+  
+  /* Button styling */
+  
+  
+  /* Price summary section */
+  /* Price summary section - maroon themed */
+.price-summary {
+    min-width: 400px;
+    max-height: 200px;
+    border: 2px solid #683737; /* maroon border */
+    border-radius: 10px;
+    padding: 20px;
+    background-color:#683737; /* very light maroon background */
+    box-shadow: 0 0 8px rgba(104, 55, 55, 0.2);
+    align-self: flex-start;
+  }
+  
+  .price-summary h4,h3 {
+    color: rgb(192, 136, 136); 
+    text-align: left;
+  }
+  .price-summary h4{
+    color: rgb(239, 236, 236);
+    
+  }
+  .price-summary p {
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+    color: white; /* deeper maroon for text */
+  }
+
+  /* Buttons */
+  .btn ,.price-summary button{
+    background-color: #683737;
+    color: white;
+    padding: 6px 12px;
+    font-size: 13px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+  }
+  .price-summary button{
+    background-color: rgb(192, 136, 136);
+  }
+  
+  .btn:hover {
+    background-color: #4e2b2b; /* darker on hover */
+  }
+  
+  /* Product name heading */
+  .name {
+    color: #683737;
+    font-size: 18px;
+    margin-bottom: 8px;
+    text-align: center;
+  }
+  
+  /* Responsive layout */
+  @media (max-width: 768px) {
+    .cart-container {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .price-summary {
+      width: 100%;
+      max-width: 380px;
+    }
+  }
+  

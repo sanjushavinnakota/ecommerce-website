@@ -1,0 +1,81 @@
+/* CheckoutPage.css */
+  
+  .checkout-container {
+    max-width: 800px;
+    margin: 60px auto;
+    padding: 40px;
+    background: rgba(255, 255, 255, 0.6);
+    border-radius: 20px;
+    box-shadow: 0 12px 40px rgba(0, 0, 0, 0.15);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+  }
+  
+  .checkout-container h2 {
+    font-size: 32px;
+    margin-bottom: 30px;
+    color: #1e1e2f;
+    font-weight: 600;
+    text-align: center;
+  }
+  
+  .section {
+    margin-bottom: 40px;
+  }
+  
+  .section h3 {
+    font-size: 20px;
+    margin-bottom: 20px;
+    color: #2f2f3f;
+    border-left: 4px solid #683737;
+    padding-left: 10px;
+    font-weight: 500;
+  }
+  
+  .section input[type="text"] {
+    width: 100%;
+    padding: 14px 16px;
+    margin-bottom: 18px;
+    border: none;
+    border-radius: 12px;
+    background-color: rgba(255, 255, 255, 0.85);
+    font-size: 16px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.08);
+    transition: 0.3s ease;
+  }
+  
+  .section input[type="text"]:focus {
+    outline: none;
+    box-shadow: 0 0 0 2px #683737;
+  }
+  
+  .section label {
+    display: flex;
+    align-items: center;
+    font-size: 16px;
+    color: #444;
+    margin-bottom: 12px;
+    cursor: pointer;
+    transition: 0.2s ease;
+  }
+  
+  .section input[type="radio"] {
+    margin-right: 10px;
+    transform: scale(1.2);
+    accent-color: #683737;
+  }
+  
+  .confirm-pay {
+    width: 100%;
+    background-color:  #683737;
+    color: white;
+    font-size: 18px;
+    font-weight: 500;
+    padding: 16px;
+    border: none;
+    border-radius: 14px;
+    cursor: pointer;
+    transition: 0.3s ease;
+    letter-spacing: 0.5px;
+  }
+  
+ 

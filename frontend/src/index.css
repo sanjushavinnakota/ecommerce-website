@@ -1,0 +1,44 @@
+/* Reset some default styles */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  background-color: #dcd3d3;
+  color: #333;
+  justify-content: center;
+}
+
+/* Button */
+.btn{
+  background-color:#683737;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 4px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin-top: auto;
+}
+.button-wrapper {
+  margin-top: auto;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  gap: 10px;
+}
+
+.cancel{
+  margin-top: 6px;
+}
+
+.checkbox-label {
+  display: block;
+  margin-bottom: 8px;
+  cursor: pointer;
+}
