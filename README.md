@@ -21,13 +21,9 @@ In the `backend` folder, create a `.env` file with the following:
 
 RAZORPAY_KEY_ID=your_razorpay_key_id_here  
 RAZORPAY_SECRET=your_razorpay_secret_here  
-MONGO_URI=mongodb://localhost:27017/msme_marketplace  
+MONGO_URI=your_mongodb_connection_string_here  
 PORT=5050
 
-⚠️ **Do NOT commit `.env` to Git.**  
-Add this line to your `.gitignore`:
-
-.env
 
 ## 🧪 Prerequisites
 
